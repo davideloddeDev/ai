@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     <header>
-      <h1>Welcome to my website</h1>
+      <h1>AIXplorer - Esplora le AI più potenti</h1>
       <div className="search-container">
         <form onSubmit={handleSearch}>
           <input 
