@@ -22,23 +22,27 @@ h1 {
   display: flex;
   gap: 1rem;
 }
-
 .search-input {
   flex: 1;
   padding: 0.8rem 1.2rem;
   border: none;
   border-radius: 25px;
   font-size: 1rem;
-  background: rgba(255, 255, 255, 0.9);
+  color: #333333;
+  background: rgba(255, 255, 255, 0.95);
   transition: all 0.3s ease;
+}
+
+.search-input::placeholder {
+  color: #666666;
 }
 
 .search-input:focus {
   outline: none;
   box-shadow: 0 0 0 2px #ffffff;
   background: #ffffff;
+  color: #000000;
 }
-
 .search-button {
   padding: 0.8rem 1.5rem;
   border: none;
@@ -68,4 +72,21 @@ h1 {
   .search-button {
     width: 100%;
   }
+}
+
+.home-button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  background: #e74c3c;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 1rem;
+}
+
+.home-button:hover {
+  background: #c0392b;
+  transform: translateY(-1px);
 }
