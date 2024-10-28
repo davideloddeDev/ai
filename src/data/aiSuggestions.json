@@ -1,0 +1,394 @@
+{
+    "testo": {
+        "title": "ChatGPT",
+        "description": "Ottimo per elaborazione e generazione di testo",
+        "icon": "🤖",
+        "company": "OpenAI",
+        "keywords": [
+            "testo",
+            "scrittura",
+            "chat",
+            "conversazione",
+            "text"
+        ]
+    },
+    "immagini": {
+        "title": "DALL-E",
+        "description": "Specializzato nella creazione di immagini",
+        "icon": "🎨",
+        "company": "OpenAI",
+        "keywords": [
+            "immagini",
+            "immagine",
+            "foto",
+            "disegno",
+            "image",
+            "picture"
+        ]
+    },
+    "codice": {
+        "title": "GitHub Copilot",
+        "description": "Perfetto per assistenza nella programmazione",
+        "icon": "👨‍💻",
+        "company": "GitHub/Microsoft",
+        "keywords": [
+            "codice",
+            "coding",
+            "programmazione",
+            "sviluppo",
+            "code"
+        ]
+    },
+    "arte": {
+        "title": "Midjourney",
+        "description": "Generazione di arte digitale di alta qualità con stili artistici avanzati",
+        "icon": "🖼️",
+        "company": "Midjourney Inc.",
+        "keywords": [
+            "arte",
+            "artista",
+            "disegno",
+            "pittura",
+            "art",
+            "creativo"
+        ]
+    },
+    "analisi": {
+        "title": "Claude",
+        "description": "Specializzato in analisi approfondite, ragionamento e risposte dettagliate",
+        "icon": "🎯",
+        "company": "Anthropic",
+        "keywords": [
+            "analisi",
+            "ragionamento",
+            "ricerca",
+            "studio",
+            "analysis"
+        ]
+    },
+    "multimodale": {
+        "title": "Gemini",
+        "description": "Elaborazione combinata di testo, immagini e dati multimodali",
+        "icon": "💫",
+        "company": "Google",
+        "keywords": [
+            "multimodale",
+            "combinato",
+            "misto",
+            "ibrido",
+            "multimodal"
+        ]
+    },
+    "video": {
+        "title": "Runway",
+        "description": "Creazione e editing di video con intelligenza artificiale",
+        "icon": "🎥",
+        "company": "Runway AI",
+        "keywords": [
+            "video",
+            "filmato",
+            "editing",
+            "montaggio",
+            "clip"
+        ]
+    },
+    "musica": {
+        "title": "Amper",
+        "description": "Composizione musicale automatizzata e generazione di brani",
+        "icon": "🎵",
+        "company": "Amper Music",
+        "keywords": [
+            "musica",
+            "audio",
+            "composizione",
+            "brani",
+            "music"
+        ]
+    },
+    "ricerca": {
+        "title": "Perplexity AI",
+        "description": "Motore di ricerca potenziato da AI con risposte precise e citazioni",
+        "icon": "🔍",
+        "company": "Perplexity AI",
+        "keywords": [
+            "ricerca",
+            "cerca",
+            "search",
+            "trovare",
+            "cercare"
+        ]
+    },
+    "traduzione": {
+        "title": "DeepL",
+        "description": "Traduzione avanzata con comprensione del contesto e sfumature linguistiche",
+        "icon": "🌐",
+        "company": "DeepL GmbH",
+        "keywords": [
+            "traduzione",
+            "lingue",
+            "translate",
+            "idioma",
+            "tradurre"
+        ]
+    },
+    "voce": {
+        "title": "ElevenLabs",
+        "description": "Sintesi vocale di alta qualità con voci naturali e personalizzabili",
+        "icon": "🎤",
+        "company": "ElevenLabs",
+        "keywords": [
+            "voce",
+            "audio",
+            "parlato",
+            "speech",
+            "voice"
+        ]
+    },
+    "3d": {
+        "title": "Point-E",
+        "description": "Generazione di modelli 3D da descrizioni testuali",
+        "icon": "📐",
+        "company": "OpenAI",
+        "keywords": [
+            "3d",
+            "modelli",
+            "tridimensionale",
+            "modeling",
+            "3D"
+        ]
+    },
+    "scrittura": {
+        "title": "Jasper",
+        "description": "Assistente per la scrittura di contenuti marketing e creativi",
+        "icon": "✍️",
+        "company": "Jasper.ai",
+        "keywords": [
+            "scrittura",
+            "testo",
+            "contenuti",
+            "writing",
+            "write"
+        ]
+    },
+    "dati": {
+        "title": "DataRobot",
+        "description": "Analisi predittiva e machine learning automatizzato",
+        "icon": "📊",
+        "company": "DataRobot",
+        "keywords": [
+            "dati",
+            "data",
+            "analisi",
+            "statistiche",
+            "database"
+        ]
+    },
+    "editing": {
+        "title": "Photoleap",
+        "description": "Editing fotografico avanzato con strumenti AI",
+        "icon": "📸",
+        "company": "Lightricks",
+        "keywords": [
+            "editing",
+            "foto",
+            "modifica",
+            "edit",
+            "fotografia"
+        ]
+    },
+    "assistente": {
+        "title": "Pi",
+        "description": "Assistente personale AI con personalità adattiva",
+        "icon": "🤝",
+        "company": "Inflection AI",
+        "keywords": [
+            "assistente",
+            "aiuto",
+            "helper",
+            "assistant",
+            "help"
+        ]
+    },
+    "email": {
+        "title": "EmailTree",
+        "description": "Gestione automatizzata delle email con comprensione del contesto",
+        "icon": "📧",
+        "company": "EmailTree AI",
+        "keywords": [
+            "email",
+            "posta",
+            "mail",
+            "messaggi",
+            "comunicazione"
+        ]
+    },
+    "presentazioni": {
+        "title": "Beautiful.ai",
+        "description": "Creazione automatica di presentazioni professionali",
+        "icon": "📊",
+        "company": "Beautiful.ai",
+        "keywords": [
+            "presentazioni",
+            "slides",
+            "powerpoint",
+            "presentazione",
+            "presentation"
+        ]
+    },
+    "audio": {
+        "title": "Descript",
+        "description": "Editing audio avanzato con trascrizione e sintesi vocale",
+        "icon": "🎧",
+        "company": "Descript",
+        "keywords": [
+            "audio",
+            "suono",
+            "sound",
+            "musica",
+            "registrazione"
+        ]
+    },
+    "matematica": {
+        "title": "Wolfram Alpha",
+        "description": "Risoluzione di problemi matematici e analisi computazionale",
+        "icon": "🔢",
+        "company": "Wolfram Research",
+        "keywords": [
+            "matematica",
+            "calcoli",
+            "math",
+            "algebra",
+            "numeri"
+        ]
+    },
+    "medicina": {
+        "title": "Ada Health",
+        "description": "Diagnosi preliminare e consulenza medica AI",
+        "icon": "⚕️",
+        "company": "Ada Health GmbH",
+        "keywords": [
+            "medicina",
+            "salute",
+            "medical",
+            "health",
+            "diagnosi"
+        ]
+    },
+    "legale": {
+        "title": "Harvey AI",
+        "description": "Assistenza legale e analisi documenti giuridici",
+        "icon": "⚖️",
+        "company": "Harvey",
+        "keywords": [
+            "legale",
+            "legge",
+            "legal",
+            "law",
+            "diritto"
+        ]
+    },
+    "finanza": {
+        "title": "Alpaca",
+        "description": "Trading algoritmico e analisi finanziaria",
+        "icon": "💹",
+        "company": "Alpaca Markets",
+        "keywords": [
+            "finanza",
+            "trading",
+            "finance",
+            "investimenti",
+            "soldi"
+        ]
+    },
+    "gaming": {
+        "title": "NVIDIA GameGAN",
+        "description": "Generazione di contenuti per videogiochi",
+        "icon": "🎮",
+        "company": "NVIDIA",
+        "keywords": [
+            "gaming",
+            "giochi",
+            "videogames",
+            "games",
+            "videogiochi"
+        ]
+    },
+    "robotica": {
+        "title": "Boston Dynamics AI",
+        "description": "Controllo robotico avanzato e automazione",
+        "icon": "🤖",
+        "company": "Boston Dynamics",
+        "keywords": [
+            "robotica",
+            "robot",
+            "automazione",
+            "robotics",
+            "automation"
+        ]
+    },
+    "clima": {
+        "title": "ClimateAI",
+        "description": "Previsioni climatiche e analisi ambientale",
+        "icon": "🌡️",
+        "company": "Climate AI",
+        "keywords": [
+            "clima",
+            "meteo",
+            "weather",
+            "climate",
+            "ambiente"
+        ]
+    },
+    "agricoltura": {
+        "title": "Prospera",
+        "description": "Agricoltura di precisione e monitoraggio colture",
+        "icon": "🌾",
+        "company": "Prospera Technologies",
+        "keywords": [
+            "agricoltura",
+            "farming",
+            "coltivazione",
+            "agriculture",
+            "colture"
+        ]
+    },
+    "sicurezza": {
+        "title": "Darktrace",
+        "description": "Cybersecurity autonoma e rilevamento minacce",
+        "icon": "🔒",
+        "company": "Darktrace",
+        "keywords": [
+            "sicurezza",
+            "security",
+            "protezione",
+            "cyber",
+            "cybersecurity"
+        ]
+    },
+    "educazione": {
+        "title": "Carnegie Learning",
+        "description": "Tutoraggio personalizzato e adattivo",
+        "icon": "📚",
+        "company": "Carnegie Learning",
+        "keywords": [
+            "educazione",
+            "education",
+            "learning",
+            "studio",
+            "insegnamento"
+        ]
+    },
+    "hr": {
+        "title": "HiredScore",
+        "description": "Reclutamento e selezione del personale",
+        "icon": "👥",
+        "company": "HiredScore",
+        "keywords": [
+            "hr",
+            "risorse umane",
+            "recruitment",
+            "personale",
+            "recruiting"
+        ]
+    }
+}

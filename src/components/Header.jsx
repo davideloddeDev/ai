@@ -1,44 +1,32 @@
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import './css/header.css'
+import aiSuggestions from '../data/aiSuggestions.json';
+
 export default function Header() {
-  const navigate = useNavigate();
-  const location = useLocation();
-  const [searchText, setSearchText] = useState('');
+    const navigate = useNavigate();
+    const location = useLocation();
+    const [searchText, setSearchText] = useState('');
   
-  const handleSearch = (e) => {
-    e.preventDefault();
-    const searchInput = e.target.querySelector('.search-input').value.toLowerCase();
-    
-    const aiSuggestions = {
-        'testo': {
-            title: 'ChatGPT',
-            description: 'Ottimo per elaborazione e generazione di testo',
-            icon: '🤖',
-            company: 'OpenAI',
-            searchTerm: searchInput
-        },
-        'immagini': {
-            title: 'DALL-E',
-            description: 'Specializzato nella creazione di immagini',
-            icon: '🎨',
-            company: 'OpenAI',
-            searchTerm: searchInput
-        }
+    const handleSearch = (e) => {
+        e.preventDefault();
+        const searchInput = e.target.querySelector('.search-input').value.toLowerCase();
+        
+        let result = Object.entries(aiSuggestions).find(([_, value]) => 
+            value.keywords.some(keyword => searchInput.includes(keyword))
+        );
+
+        let finalResult = result ? result[1] : {
+            title: 'AI Generica',
+            description: 'Nessuna corrispondenza specifica trovata',
+            icon: '❓',
+            company: 'Vari'
+        };
+
+        finalResult.searchTerm = searchInput;
+        navigate('/cerca', { state: finalResult });
+        setSearchText('');
     };
-
-    let result = aiSuggestions[searchInput] || {
-        title: 'AI Generica',
-        description: 'Nessuna corrispondenza specifica trovata',
-        icon: '❓',
-        company: 'Vari',
-        searchTerm: searchInput
-    };
-
-    navigate('/cerca', { state: result });
-    setSearchText(''); // Reset del campo input
-  }
-
   return (
     <header>
       <h1>AIXplorer</h1>
