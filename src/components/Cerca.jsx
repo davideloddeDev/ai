@@ -2,11 +2,11 @@ import { useLocation } from 'react-router-dom';
 
 export default function Cerca() {
     const location = useLocation();
-    const { title, description, icon, company } = location.state;
+    const { title, description, icon, company, searchTerm } = location.state;
 
     return (
         <div className="search-container">
-          <h1 className="main-title">Motore di IA Suggerito</h1>
+          <h1 className="main-title">Motore di IA Suggerito per: {searchTerm}</h1>
           <div className="tiles-grid">
             <div className="tile">
               <div className="tile-icon">{icon}</div>

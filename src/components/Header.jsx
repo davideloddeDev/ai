@@ -1,50 +1,55 @@
 import { useNavigate, useLocation } from 'react-router-dom';
-import "./css/header.css";
-
+import { useState } from 'react';
+import './css/header.css'
 export default function Header() {
   const navigate = useNavigate();
   const location = useLocation();
-
-  const handleSearch = e => {
+  const [searchText, setSearchText] = useState('');
+  
+  const handleSearch = (e) => {
     e.preventDefault();
-    const searchInput = e.target
-      .querySelector(".search-input")
-      .value.toLowerCase();
-
+    const searchInput = e.target.querySelector('.search-input').value.toLowerCase();
+    
     const aiSuggestions = {
-      testo: {
-        title: "ChatGPT",
-        description: "Ottimo per elaborazione e generazione di testo",
-        icon: "🤖",
-        company: "OpenAI"
-      },
-      immagini: {
-        title: "DALL-E",
-        description: "Specializzato nella creazione di immagini",
-        icon: "🎨",
-        company: "OpenAI"
-      }
+        'testo': {
+            title: 'ChatGPT',
+            description: 'Ottimo per elaborazione e generazione di testo',
+            icon: '🤖',
+            company: 'OpenAI',
+            searchTerm: searchInput
+        },
+        'immagini': {
+            title: 'DALL-E',
+            description: 'Specializzato nella creazione di immagini',
+            icon: '🎨',
+            company: 'OpenAI',
+            searchTerm: searchInput
+        }
     };
 
     let result = aiSuggestions[searchInput] || {
-      title: "AI Generica",
-      description: "Nessuna corrispondenza specifica trovata",
-      icon: "❓",
-      company: "Vari"
+        title: 'AI Generica',
+        description: 'Nessuna corrispondenza specifica trovata',
+        icon: '❓',
+        company: 'Vari',
+        searchTerm: searchInput
     };
 
-    navigate("/cerca", { state: result });
-  };
+    navigate('/cerca', { state: result });
+    setSearchText(''); // Reset del campo input
+  }
 
   return (
     <header>
       <h1>AIXplorer</h1>
       <div className="search-container">
         <form onSubmit={handleSearch}>
-          <input
-            type="text"
-            className="search-input"
+          <input 
+            type="text" 
+            className="search-input" 
             placeholder="Esplora i motori AI..."
+            value={searchText}
+            onChange={(e) => setSearchText(e.target.value)}
           />
           <button type="submit" className="search-button">
             Cerca
