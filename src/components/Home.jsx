@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <div className="home-container">
-      <h1 className="main-title">Motori di Intelligenza Artificiale</h1>
+      <h1 className="main-title">Motore di Intelligenza Artificiale</h1>
       <div className="tiles-grid">
         {getCurrentPageItems().map((ai, index) => (
           <div key={index} className="tile" style={{"--order": index}}>
