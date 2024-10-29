@@ -390,5 +390,19 @@
             "personale",
             "recruiting"
         ]
+    },
+    "casa": {
+        "title": "Autocad",
+        "description": "Progettazione e simulazione di edifici",
+        "icon": "👥",
+        "company": "Autodesk",
+        "keywords": [
+            "casa",
+            "abitazione",
+            "immobile",
+            "progettazione",
+            "simulazione",
+            "mobili"
+        ]
     }
 }
