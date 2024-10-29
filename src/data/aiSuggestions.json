@@ -404,5 +404,61 @@
             "simulazione",
             "mobili"
         ]
+    },
+    "moda": {
+        "title": "StyleGAN",
+        "description": "Generazione e design di capi d'abbigliamento e tendenze moda",
+        "icon": "👗",
+        "company": "Fashion AI Labs",
+        "keywords": [
+            "moda",
+            "vestiti",
+            "design",
+            "fashion",
+            "stile",
+            "abbigliamento"
+        ]
+    },
+    "cucina": {
+        "title": "ChefGPT",
+        "description": "Creazione ricette personalizzate e pianificazione pasti",
+        "icon": "🍳",
+        "company": "Kitchen AI",
+        "keywords": [
+            "cucina",
+            "ricette",
+            "cooking",
+            "chef",
+            "food",
+            "gastronomia"
+        ]
+    },
+    "sport": {
+        "title": "AthleteAI",
+        "description": "Analisi prestazioni atletiche e ottimizzazione allenamenti",
+        "icon": "🏃",
+        "company": "Sports Analytics Pro",
+        "keywords": [
+            "sport",
+            "allenamento",
+            "fitness",
+            "atletica",
+            "performance",
+            "training"
+        ]
+    },
+    "viaggi": {
+        "title": "TravelPlan",
+        "description": "Pianificazione intelligente di itinerari e consigli di viaggio",
+        "icon": "✈️",
+        "company": "Smart Travel Tech",
+        "keywords": [
+            "viaggi",
+            "turismo",
+            "travel",
+            "vacanze",
+            "itinerari",
+            "destinazioni"
+        ]
     }
 }
