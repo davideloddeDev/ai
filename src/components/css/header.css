@@ -22,6 +22,7 @@ h1 {
   display: flex;
   gap: 1rem;
 }
+
 .search-input {
   flex: 1;
   padding: 0.8rem 1.2rem;
@@ -43,6 +44,7 @@ h1 {
   background: #ffffff;
   color: #000000;
 }
+
 .search-button {
   padding: 0.8rem 1.5rem;
   border: none;
@@ -58,7 +60,6 @@ h1 {
   background: #27ae60;
   transform: translateY(-1px);
 }
-
 @media (max-width: 1024px) {
   .search-container {
     max-width: 90%;
@@ -75,17 +76,21 @@ h1 {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    gap: 0.8rem;
   }
 
   .search-input {
     width: 100%;
     max-width: 300px;
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
   }
 
   .search-button,
   .home-button {
-    width: 100%;
-    max-width: 300px;
+    width: 30%;
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
   }
 }
 
