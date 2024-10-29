@@ -59,21 +59,44 @@ h1 {
   transform: translateY(-1px);
 }
 
+@media (max-width: 1024px) {
+  .search-container {
+    max-width: 90%;
+  }
+}
+
 @media (max-width: 768px) {
+  header {
+    padding: 1.5rem;
+  }
+
   h1 {
     font-size: 2rem;
   }
 
   .search-container form {
     flex-direction: column;
+    gap: 0.8rem;
   }
 
   .search-input,
-  .search-button {
+  .search-button,
+  .home-button {
     width: 100%;
+    margin: 0;
   }
 }
 
+@media (max-width: 480px) {
+  header {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+}
 .home-button {
   padding: 0.8rem 1.5rem;
   border: none;
